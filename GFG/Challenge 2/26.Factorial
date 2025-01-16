@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+    <h1>ck</h1>
+
+<script>
+
+ function fun(n)
+{
+    if (n==0)
+    return 1;
+    return n*fun(n-1)
+}
+let num=5;
+console.log("factorial of "+num+" is "+fun(num));
+</script>
+</body>
+</html>
